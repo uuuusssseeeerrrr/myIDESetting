@@ -1,0 +1,12 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SpringPlaceholderReference" injector-id="xml">
+      <display-name>root</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("root")).withNamespace(string().equalTo("http://java.sun.com/JSP/Page"))]]></place>
+    </injection>
+    <injection language="GenericSQL" injector-id="xml">
+      <display-name>select</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("select")).withNamespace(string().equalTo("http://mybatis.org/dtd/mybatis-3-mapper.dtd"))]]></place>
+    </injection>
+  </component>
+</application>
